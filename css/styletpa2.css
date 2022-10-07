@@ -2,6 +2,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: bisque;
+  font:16px/1.6 Arial,  sans-serif;
+ 
 }
 
 h1 {
@@ -13,6 +15,7 @@ section {
   max-width: 600px;
   height: auto;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -34,4 +37,17 @@ button :hover {
 
 #result {
   visibility: none;
+}
+
+footer {
+  position: fixed;
+	bottom: 10px;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: #9a92ec;;
 }
