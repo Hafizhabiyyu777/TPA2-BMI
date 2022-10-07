@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+section {
+  max-width: 600px;
+  height: auto;
+  padding: 10px;
+}
+
+button {
+  background-color: #6558f5;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #6558f5;
+}
+
+button :hover {
+  background-color: #493af1;
+}
+
+#calculate input {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#result {
+  visibility: none;
+}
